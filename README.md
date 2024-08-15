@@ -37,15 +37,72 @@ git clone https://github.com/AnhVu-NAV/Exercise_PRJ301.git
 3. After the build is successful, right-click the project again and select Run.
 The application will be deployed on Tomcat and can be accessed via a web browser.
 
-##Usage
-Once deployed, you can access the application by navigating to the following URL in your web browser:
+## Projects
 
+### 1. CookiesEX_Login_Logout
+
+**Overview:** A web application to demonstrate login and logout functionality using cookies.
+
+**Setup:**
+
+1. Open the `CookiesEX_Login_Logout` project in NetBeans.
+2. Configure Tomcat server in NetBeans.
+3. Build and deploy the project.
+
+**Access:** 
+
+Navigate to `http://localhost:8080/CookiesEX_Login_Logout` in your web browser.
+
+### 2. HumanProject
+
+**Overview:** A web application focusing on managing human resources data.
+
+**Setup:**
+
+1. Open the `HumanProject` in NetBeans.
+2. Configure Tomcat server in NetBeans.
+3. Build and deploy the project.
+
+**Access:** 
+
+Navigate to `http://localhost:8080/HumanProject` in your web browser.
+
+### 3. SessionEX
+
+**Overview:** A web application demonstrating session management in a web environment.
+
+**Setup:**
+
+1. Open the `SessionEX` project in NetBeans.
+2. Configure Tomcat server in NetBeans.
+3. Build and deploy the project.
+
+**Access:** 
+
+Navigate to `http://localhost:8080/SessionEX` in your web browser.
+
+### 4. TestWebJava
+
+**Overview:** A web application for testing various Java web functionalities.
+
+**Setup:**
+
+1. Open the `TestWebJava` project in NetBeans.
+2. Configure Tomcat server in NetBeans.
+3. Build and deploy the project.
+
+**Access:** 
+
+Navigate to `http://localhost:8080/TestWebJava` in your web browser.
 ##Troubleshooting
 If you encounter any issues, ensure that:
 
 - The correct versions of NetBeans, JDK, and Tomcat are installed.
 - The server is configured properly in NetBeans.
 - All dependencies are correctly resolved.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ##Contact
 For any questions or support, please contact [vunguyen.nav2004@gmail.com].
