@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Test Web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<!--        <form action="./firstServlet">
+            <label>Username: </label>
+            <input type="text" name="username">
+            <br>
+            <label>Password: </label>
+            <input type="password" name="password">
+            <br>
+            <input type="submit" value="Login">
+        </form>-->
+        <form name="input" action="./firstServlet" method="post">
+	<table>
+		<tr>
+		   <td>User name:</td><td><input type="text" name="username"/></td>
+		</tr>
+		<tr>
+		   <td>Password:</td><td><input type="password" name="password"/></td>
+		</tr>
+                <tr>
+                    <td>Gender:</td><td>
+                        <label>Male</label>
+                        <input type="radio" name="gender" value="Male"/>
+                        <label>Female</label>
+                        <input type="radio" name="gender" value="Female"/>
+                    </td>
+		</tr>
+                <tr>
+                    <td>Type:</td><td>
+                        <select name="type">
+                            <option value="null"> Choose </option>
+                            <option value="Admin"> Admin </option>
+                            <option value="User"> User </option>
+                        </select>
+                    </td>
+		</tr>
+		<tr>
+		   <td></td><td><input type="submit" value="Login"/></td>
+		</tr>
+	</table>
+	</form>
+
+    </body>
+</html>
